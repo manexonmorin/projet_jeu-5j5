@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.5, y: -0.5}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 153.2064, y: 69.3076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &101632380
 MonoBehaviour:
@@ -1003,7 +1003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1326257546
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1194,7 +1194,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1672365180}
         m_TargetAssemblyTypeName: ConnexionServeur, Assembly-CSharp
-        m_MethodName: AppuieBoutonCreerSalle
+        m_MethodName: JoindreSalle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1348,7 +1348,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputNomSalle: {fileID: 312246191}
+  inputNomJoueur: {fileID: 2069759341}
   ecranSalle: {fileID: 1959013780}
+  ecranNom: {fileID: 1326257545}
 --- !u!4 &1672365181
 Transform:
   m_ObjectHideFlags: 0
@@ -1451,7 +1453,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1672365180}
         m_TargetAssemblyTypeName: ConnexionServeur, Assembly-CSharp
-        m_MethodName: AppuieBoutonCreerSalle
+        m_MethodName: CreerSalle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1824,7 +1826,7 @@ GameObject:
   - component: {fileID: 1889149106}
   - component: {fileID: 1889149105}
   m_Layer: 5
-  m_Name: BouttonJoindreSalle
+  m_Name: BouttonConfirmerNom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1898,7 +1900,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1672365180}
         m_TargetAssemblyTypeName: ConnexionServeur, Assembly-CSharp
-        m_MethodName: AppuieBoutonCreerSalle
+        m_MethodName: ConfirmerNom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

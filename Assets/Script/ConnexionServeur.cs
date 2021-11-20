@@ -9,8 +9,10 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
 {
 
     public InputField inputNomSalle;
+    public InputField inputNomJoueur;
 
     public GameObject ecranSalle;
+    public GameObject ecranNom;
 
     private void Awake()
     {
@@ -30,7 +32,7 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
 
     public override void OnJoinedLobby()
     {
-        ecranSalle.SetActive(true);
+        ecranNom.SetActive(true);
     }
 
     public override void OnCreatedRoom()
@@ -57,15 +59,23 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         
     }
 
-    public void AppuieBoutonCreerSalle()
+    public void CreerSalle()
     {
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 2;
         PhotonNetwork.CreateRoom(inputNomSalle.GetComponent<InputField>().text, roomOptions, null);
     } 
 
-    public void AppuieBoutonJoindreSalle()
+    public void JoindreSalle()
     {
         PhotonNetwork.JoinRoom(inputNomSalle.GetComponent<InputField>().text);
+    }
+
+    public void ConfirmerNom()
+    {
+        PhotonNetwork.LocalPlayer.NickName = inputNomJoueur.GetComponent<InputField>().text;
+        ecranNom.SetActive(false);
+        ecranSalle.SetActive(true);
+        print(PhotonNetwork.LocalPlayer.NickName);
     }
 }
