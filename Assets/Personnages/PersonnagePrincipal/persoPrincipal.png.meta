@@ -408,6 +408,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -3208,6 +3209,135 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      persoPrincipal_91: -7804290659181753635
+      persoPrincipal_43: -481728466679099202
+      persoPrincipal_83: 1676912722863557580
+      persoPrincipal_73: -361766055764479136
+      persoPrincipal_98: -5173710094627897832
+      persoPrincipal_61: 6638936593620686475
+      persoPrincipal_2: -5977699945003553643
+      persoPrincipal_37: 8192966636474351434
+      persoPrincipal_80: -6385591563056068868
+      persoPrincipal_3: 176039214835296406
+      persoPrincipal_122: -8283799064716187914
+      persoPrincipal_109: -7465759347776242238
+      persoPrincipal_67: 2717195514532758540
+      persoPrincipal_25: -5936142574230635809
+      persoPrincipal_81: -7871178357270794478
+      persoPrincipal_82: 7083009178144229251
+      persoPrincipal_60: 5272611504785333756
+      persoPrincipal_116: -4658660561677906398
+      persoPrincipal_123: -7570418511776652980
+      persoPrincipal_41: -4313546217921995828
+      persoPrincipal_58: 6945830696279162577
+      persoPrincipal_95: 5957032372523580194
+      persoPrincipal_120: 4213546913140504191
+      persoPrincipal_63: 3895032734125709251
+      persoPrincipal_90: -7619245859744736637
+      persoPrincipal_87: -4689794121503313609
+      persoPrincipal_99: -8301202973374912039
+      persoPrincipal_125: 250984084221321928
+      persoPrincipal_16: 7977133180426598655
+      persoPrincipal_22: -1468875599744134583
+      persoPrincipal_12: -992835364229902935
+      persoPrincipal_55: 4945653570720103317
+      persoPrincipal_70: -1260859537663130179
+      persoPrincipal_11: -1987502877204274746
+      persoPrincipal_20: -6567295310785019213
+      persoPrincipal_46: 1409351838214975286
+      persoPrincipal_30: 8678254206728471138
+      persoPrincipal_113: 3633072418558429309
+      persoPrincipal_102: 6466625253968380244
+      persoPrincipal_29: -8596309030983308080
+      persoPrincipal_117: 5434782975940775595
+      persoPrincipal_62: -2970683246420293726
+      persoPrincipal_7: 5936715272930423111
+      persoPrincipal_10: 1463651490126336713
+      persoPrincipal_89: 5897317022466375180
+      persoPrincipal_126: -5372736145429614944
+      persoPrincipal_93: -1953289970926863814
+      persoPrincipal_100: -4473573450069246217
+      persoPrincipal_101: 1113749395090300739
+      persoPrincipal_121: -7324426656960243559
+      persoPrincipal_27: -483466522506567317
+      persoPrincipal_66: -5547534911379295602
+      persoPrincipal_107: 2815073088686661968
+      persoPrincipal_72: 604110981405015815
+      persoPrincipal_0: -5597499609389608197
+      persoPrincipal_112: -287364126275330360
+      persoPrincipal_18: 6960920173152576313
+      persoPrincipal_33: -1103436725587246903
+      persoPrincipal_57: 8837471858280774685
+      persoPrincipal_39: 3294988160064588986
+      persoPrincipal_68: -1012882596541060545
+      persoPrincipal_106: 1445728066087952021
+      persoPrincipal_96: 1651208749795962915
+      persoPrincipal_74: 2243220251237369879
+      persoPrincipal_76: -2148367989257438529
+      persoPrincipal_88: -2664985272928504108
+      persoPrincipal_1: -5197012992743113378
+      persoPrincipal_45: -7124284024551450865
+      persoPrincipal_79: -4172057252269477235
+      persoPrincipal_97: -599726853461685805
+      persoPrincipal_111: 6625892579393458277
+      persoPrincipal_17: 8846206415281014421
+      persoPrincipal_52: -2286073191874547616
+      persoPrincipal_34: -957387449329482401
+      persoPrincipal_84: 8409559484529600906
+      persoPrincipal_54: -1716453815815644568
+      persoPrincipal_118: -4482793409468100225
+      persoPrincipal_5: -7763373490868131921
+      persoPrincipal_85: 5853358928667113703
+      persoPrincipal_9: 767352357243925680
+      persoPrincipal_103: 7733023965301155660
+      persoPrincipal_127: -8117335530316616427
+      persoPrincipal_38: 256224866721814610
+      persoPrincipal_49: 7625875780765453275
+      persoPrincipal_108: -3984218002961050983
+      persoPrincipal_94: -3367449906599739144
+      persoPrincipal_28: -5754119932854456720
+      persoPrincipal_114: 6177921041622456823
+      persoPrincipal_124: -8274455332318790302
+      persoPrincipal_35: 9022969939364040228
+      persoPrincipal_36: -3513178341847032634
+      persoPrincipal_69: 2967623653915110887
+      persoPrincipal_13: -3107199380230573702
+      persoPrincipal_8: 5983420039303749566
+      persoPrincipal_77: -5790776499399398912
+      persoPrincipal_56: -4104111567926962355
+      persoPrincipal_115: -6308315513175390763
+      persoPrincipal_6: 2123444612804638546
+      persoPrincipal_23: -2615873380978582841
+      persoPrincipal_24: 2398131864611462817
+      persoPrincipal_75: -8733093922389700837
+      persoPrincipal_14: 2530954317858649555
+      persoPrincipal_78: 1923641587335268065
+      persoPrincipal_15: 2728421086042539821
+      persoPrincipal_119: 6609639814956398523
+      persoPrincipal_86: 5530957257105741637
+      persoPrincipal_32: 186779722694586605
+      persoPrincipal_105: 2866929917075611433
+      persoPrincipal_53: 574624082183940948
+      persoPrincipal_51: -3402923896573117380
+      persoPrincipal_40: 8863022735743352972
+      persoPrincipal_48: -4808562804851445019
+      persoPrincipal_26: -4397259204015413066
+      persoPrincipal_21: 7240569984755460475
+      persoPrincipal_104: -680199016528757433
+      persoPrincipal_31: -3237662718659816792
+      persoPrincipal_44: 1444946481245606318
+      persoPrincipal_47: 3343665599823881997
+      persoPrincipal_59: 8051260008661764237
+      persoPrincipal_71: 5033373604907369405
+      persoPrincipal_19: 2156816119558122098
+      persoPrincipal_65: 5866843245751225976
+      persoPrincipal_4: 7477504806509180771
+      persoPrincipal_110: 4605236170098558856
+      persoPrincipal_92: 2512541339747366621
+      persoPrincipal_50: -598199819614192175
+      persoPrincipal_64: 5421287254255593006
+      persoPrincipal_42: -6104704357845480117
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
